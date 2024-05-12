@@ -190,7 +190,7 @@ function playSong() {
                         if (songTotal < 60) {
                             songTotalLength.innerHTML = minutes + ":" + seconds
                         } else {
-                            songTotalLength.innerHTML = minutes + ":0" + seconds
+                            songTotalLength.innerHTML = minutes + ":" + seconds
                         }
 
 
